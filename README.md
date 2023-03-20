@@ -35,3 +35,10 @@ Next create a Directory using mkdir <dirname> and change directory into it using
  
  check for the file whether staged or not by using    git status.   If it is added it apears in green color.
         
+git commit -m " message" ---> This is to commit the staged file to local repository. While giving message give it properly it will be useful for future references.
+        
+git push origin main/master:  This is to push the code to remote from local.
+       ![Screenshot (11)](https://user-images.githubusercontent.com/114085306/226409422-6aeeb114-0094-464a-883c-a0f2f971bb98.png)
+ We can see above that the git asks for GitHub username and Password.
+        
+        
