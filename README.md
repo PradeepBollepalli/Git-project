@@ -23,3 +23,9 @@ Then we need to go to Github and create a repository to push our code in to it. 
 Next create a Directory using mkdir <dirname> and change directory into it using cd<dir name>
         
 ![Screenshot (9)](https://user-images.githubusercontent.com/114085306/226394343-980848d6-d266-4d29-a489-a6505b374975.png)
+ Then give global configurations for that repository to do commits (If u dont give global user configurations it won't allow you to push the code.)
+ the global configurations are as fallows:
+          *git config --global user.name"PradeepBollepalli"
+          *git config --global user.email"<email address>"
+        
+        
