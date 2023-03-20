@@ -20,7 +20,7 @@ Then we need to go to Github and create a repository to push our code in to it. 
           4.If you want ot public select public or can keep it Private.
           5.Then click on create repository. and it gets created.
           
-Clone the repository you want to push the code and (git clone <repository URL>) we can get it in repository itself on right side of repo. Copy and paste it.
+Clone the repository you want to push the code and (git clone <repository URL>) we can get it in repository itself on right side of repo in code(select it u can see it in green color). Copy and paste it.
 Next create a Directory using mkdir <dirname> and change directory into it using cd<dir name>
         
 ![Screenshot (9)](https://user-images.githubusercontent.com/114085306/226394343-980848d6-d266-4d29-a489-a6505b374975.png)
