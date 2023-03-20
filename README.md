@@ -19,7 +19,8 @@ Then we need to go to Github and create a repository to push our code in to it. 
           3.select READme. file so that we can document our work in it.
           4.If you want ot public select public or can keep it Private.
           5.Then click on create repository. and it gets created.
-
+          
+Clone the repository you want to push the code and (git clone <repository URL>) we can get it in repository itself on right side of repo. Copy and paste it.
 Next create a Directory using mkdir <dirname> and change directory into it using cd<dir name>
         
 ![Screenshot (9)](https://user-images.githubusercontent.com/114085306/226394343-980848d6-d266-4d29-a489-a6505b374975.png)
@@ -40,5 +41,12 @@ git commit -m " message" ---> This is to commit the staged file to local reposit
 git push origin main/master:  This is to push the code to remote from local.
        ![Screenshot (11)](https://user-images.githubusercontent.com/114085306/226409422-6aeeb114-0094-464a-883c-a0f2f971bb98.png)
  We can see above that the git asks for GitHub username and Password.
+   
+ Generating Password:        
+     go to settings on rightside corner of repository
+     select developer settings.
+     and can see tokens & select generate token(classic) and give token a name and give expairy date and click on Generate token.
+     It gives a token(keep it private because is password for your project) and copy the token and paste it where it is asked.
+     Then it is pushed to the repository which you cloned.  
         
-        
+  FOR FURTHER INFORMATION WE CAN GET ALL THE DETAILS/INSTRUCTIONS WHILE LAUNCHING A REPOSITORY LIKE BELOW:      
