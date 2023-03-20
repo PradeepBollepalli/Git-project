@@ -27,5 +27,11 @@ Next create a Directory using mkdir <dirname> and change directory into it using
  the global configurations are as fallows:
           *git config --global user.name"PradeepBollepalli"
           *git config --global user.email"<email address>"
-        
+          
+  Then do a git initialization by using  Git init  , this allows outside folder in to git.
+  By defaul we get a master branch, if we want can create another branch by using ____git branch main, and can checkout to that branch by using the command *  Git checkout main.
+  
+ Then add a local file to git staging area by using     git add<file name>   and that goes on to staging from working.
+ 
+ check for the file whether staged or not by using    git status.   If it is added it apears in green color.
         
