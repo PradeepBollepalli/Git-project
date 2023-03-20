@@ -50,3 +50,24 @@ git push origin main/master:  This is to push the code to remote from local.
      Then it is pushed to the repository which you cloned.  
         
   FOR FURTHER INFORMATION WE CAN GET ALL THE DETAILS/INSTRUCTIONS WHILE LAUNCHING A REPOSITORY LIKE BELOW:      
+
+
+echo "# ggg" >> README.md                                           |
+git init                                                             
+git add README.md                                                   |  This is for new repository.
+git commit -m "first commit"                                              
+git branch -M main                                                   |
+git remote add origin https://github.com/PradeepBollepalli/ggg.git
+git push -u origin main
+
+
+git remote add origin https://github.com/PradeepBollepalli/ggg.git|
+git branch -M main                                                | This is for existing repository.
+git push -u origin main                                           |
+
+And also there are many more commands in git like Git cherrypick, git statsh, git merge.git rebase, git revert, git pull,merge,git logs etc...
+Here in this project we dont ude all of them but can be used any time in realtime.
+
+
+                                      -----------   THANK YOU   -----------
+
